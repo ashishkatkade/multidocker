@@ -22,6 +22,7 @@ after_success:
   - docker push ashishkatkade/multi-server
   - docker push ashishkatkade/multi-worker
   
+  #deployment steps from travis to aws
   deploy:
     provider: elasticbeanstalk
     region: 'eu-north-1'
